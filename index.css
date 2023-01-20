@@ -20,7 +20,7 @@ html {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #181c25;
+    background: rgba(0, 0, 0, 0.692);
 }
 header {
     display: flex;
@@ -29,7 +29,7 @@ header {
     left: 0;
     right: 0;
     padding: 15px;
-    background-color: #181c25;
+    background: rgba(0, 0, 0, 0.692);
     gap: 20px;
     align-items: center;
     width: 100%;
@@ -54,19 +54,46 @@ video {
 }
 .first-box {
    border: 4px solid rgb(235, 233, 236);
-   height: 220px;
-   width: 600px;
+   height: 320px;
+   width: 800px;
    margin-top: 150px;
-   margin-left: 30%;
+   margin-left: 20%;
    display: flex;
    justify-content: center;
    align-items: center;
    background: rgba(0, 0, 0, 0.692);
    border-radius: 6.28px;
    padding: 40px;
-}
+   flex-direction: column;
+   padding-bottom: 10%;
+   }
 .mophi-guardian {
+    max-width: 250px;
+    border-radius: 6.28px;
+}
+.steam-button {
+    border: 2px solid white;
+    border-radius: 6.28px;
+    padding: 10px;
+    margin-top: 5%;
+    background-image: linear-gradient(#181c25, rgb(28, 65, 82));
+    transition: transform 0.3s ease 0s;
+}
+.steam-button:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    text-shadow: 0 0 10px #01ffdd; 
+}
+.text-container {
+    margin-top: 20%;
+    padding-bottom: 10%;
+}
+h3 {
+    font-size: 25px;
     display: flex;
-    flex-direction: row-reverse;
-    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+a:hover { 
+    text-shadow: 0 0 10px #01ffdd; 
 }
